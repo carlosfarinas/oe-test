@@ -1,0 +1,106 @@
+body{
+    font-family: muli, sans-serif;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.chickenYellow{
+    color: #FFFC00;
+}
+.chickenBgYellow{
+    background-color: #FFFC00;
+}
+.blueText{
+    color: #0157BA;
+}
+
+.textCentered{
+    text-align: center;
+}
+.loveSlogan{
+    padding: 10px 0;
+}
+.loveText{
+    font-family: muli, sans-serif;
+    color: #0157BA;
+    font-size: 28px;
+    font-weight: 800;
+    vertical-align: bottom;
+}
+.loveBtn{
+    border-radius: 23px;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    background-image: linear-gradient(#FF6600, #FF7100, #FF7B00); /* svg can be used too */
+}
+.mainTop{
+    padding: 2rem 1rem;
+    background-image: linear-gradient(333deg,#0157BA, #044795);
+}
+.textWhite{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 600;
+}
+.textYellow{
+    font-size: 47px;
+    color: #FFFC00;
+    font-weight: 800;
+}
+.videoStr{
+    /*--*/
+}
+.biggerBtn{
+    border-radius: 23px;
+    color: #FFFFFF;
+    padding: 15px 35px 15px 35px;
+    width: 396px;
+    background-image: linear-gradient(#FF6600, #FF7100, #FF7B00); /* svg can be used too */
+
+}
+.card{
+    border: 0 none;
+}
+.card-header{
+    background-color: transparent;
+    border-bottom: 0 none;
+}
+.contCardTitle{
+    font-size: 30px;
+    font-weight: 800;
+}
+.gallery{
+    background-color: #EAF7FF;
+}
+.galleryImage{
+    width: 357px;
+    height: 453px;
+    position: relative;
+}
+.imgTitle{
+    color: #FFFFFF;
+    font-size: 28px;
+    position: absolute;
+    bottom: 70px;
+    left: 75px;
+
+}
+.bottomText{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
+
+
+@media (min-width: 576px){
+    .mainTop {
+        padding: 4rem 2rem;
+        background: url("../img/blue-bg.png") no-repeat;
+        background-size: 100% 100%;
+    }
+
+}
